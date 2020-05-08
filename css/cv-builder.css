@@ -1,0 +1,46 @@
+.spacing{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.judul-build{
+    border-radius: 10px 10px 0 0;
+    height: 70px;
+    background-color: #fff;
+}
+.pilih-cv{
+    overflow-y: scroll;
+    height: 340px;
+}
+.header-builder{
+    margin-top: 20px;
+}
+.span{
+    color: #fff;
+}
+.button-builder{
+    margin-top: 20px;
+}
+.bottom-build{
+    border-radius: 0 0 10px 10px;
+    height: 70px;
+    background-color: #fff;
+}
+.vector-2{
+    width: 20%;
+}
+.btn-clr{
+    color: #000;
+}
+.active{
+    background-color: #8FBC8F;
+}
+.x{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img-style{
+    margin-bottom: 10px;
+}
+.img-style:hover{
+    background-color: #8FBC8F;
+}

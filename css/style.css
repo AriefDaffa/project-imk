@@ -59,7 +59,15 @@ a.button1:hover{
     height: 25%;
 }
 .header-nav{
+    font-size: 30px;
     color: #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.header-nav:hover{
+    color: #8FBC8F;
+}
+.col-head{
     margin-top: 20px;
     margin-bottom: 20px;
 }
