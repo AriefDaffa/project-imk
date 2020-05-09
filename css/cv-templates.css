@@ -8,7 +8,7 @@ body,html{
     color: #fff;
 }
 .vector-3{
-    margin-top: 40px;
+    margin-top: 100px;
     width: 20%;
 }
 .type-2{
@@ -18,6 +18,14 @@ body,html{
     border-radius: 10px 10px 10px 10px;
     border-color: #000;
     border-style: groove;
+}
+.div-border2{
+    border-radius: 10px 10px 10px 10px;
+    border-color: #fff;
+    border-style: groove;
+}
+.space{
+    height: 200px;
 }
 .spacing{
     height: 300px;
