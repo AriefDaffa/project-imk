@@ -1,0 +1,24 @@
+body,html{
+    background-color: #fff;
+}
+.judul{
+    background-color: #001f3f;
+}
+.font-colors{
+    color: #fff;
+}
+.vector-3{
+    margin-top: 40px;
+    width: 20%;
+}
+.type-2{
+    background-color: #0074D9;
+}
+.div-border{
+    border-radius: 10px 10px 10px 10px;
+    border-color: #000;
+    border-style: groove;
+}
+.spacing{
+    height: 300px;
+}
