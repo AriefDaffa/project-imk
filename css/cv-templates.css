@@ -14,12 +14,17 @@ body,html{
 .type-2{
     background-color: #0074D9;
 }
+.type-3{
+    background-color: #85144b;
+}
 .div-border{
+    background-color: #ddd;
     border-radius: 10px 10px 10px 10px;
     border-color: #000;
     border-style: groove;
 }
 .div-border2{
+    background-color: #ddd;
     border-radius: 10px 10px 10px 10px;
     border-color: #fff;
     border-style: groove;
@@ -28,5 +33,58 @@ body,html{
     height: 200px;
 }
 .spacing{
-    height: 300px;
+    height: 100px;
+}
+.size{
+    width: 60%;
+}
+.x{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a.button1{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #000;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    transition: all 0.2s;
+}
+a.button1:hover{
+    color: #000;
+    background-color: #ddd;
+}
+@media all and (max-width:30em){
+    a.button1{
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+a.button2{
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #fff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    transition: all 0.2s;
+}
+a.button2:hover{
+    color: #fff;
+    background-color: #000;
+}
+@media all and (max-width:30em){
+    a.button2{
+        display: block;
+        margin: 0.4em auto;
+    }
 }
