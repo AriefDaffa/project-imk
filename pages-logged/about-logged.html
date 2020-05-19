@@ -16,116 +16,24 @@
   <body>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" >
         <div class="container">
-          <a class="navbar-brand" href="/index.html">
+          <a class="navbar-brand" href="index-logged.html">
             <img src="/img/LOGO_IMK.jpeg" width="30" height="30" class="d-inline-block align-top round" alt="" loading="lazy">
             CurrVie
           </a>
             
             <div class="btn-group">
               <button type="button" class="btn btn-outline-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                User menu
+                Hello, User !
               </button>
               <div class="dropdown-menu dropdown-menu-right">
-                <button class="dropdown-item" type="button" data-toggle="modal" data-target=".bd-example-lg">Login</button>
-                <button class="dropdown-item" type="button" data-toggle="modal" data-target=".bd-lg">Register</button>
+                <a href="account.html" class="dropdown-item" >Account</a>
+                <a href="/pages/about.html" class="dropdown-item" >Log out</a>
               </div>
             </div>
         </div>
     </nav>
 
-    <!-- modal sign in bootstrap -->
-    <div class="modal fade bd-example-lg " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered ">
-        <div class="modal-content">
-            <div class="row justify-content-center modal-css">
-                <h3 class="display-4 text-center font-weight-bold title-space">Login</h3>
-                <div class="col-10">
-                    <form>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <!-- <div class="form-group form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div> -->
-                        <div class="text-center">
-                            <a href="/pages-logged/about-logged.html" type="submit" class="btn btn-outline-info">Submit</a>
-                        </div>
-                        
-                      </form>
-                </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- modal sign up bootstrap -->
-    <div class="modal fade bd-lg " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel2" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered ">
-          <div class="modal-content">
-              <div class="row justify-content-center modal-css">
-                  <h3 class="display-4 text-center font-weight-bold title-space sp2">Register</h3> 
-                  <div class="col-10">
-                    <form>
-                        <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                          </div>
-                          <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <label for="inputAddress">Address</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                        </div>
-                        <div class="form-group">
-                          <label for="inputAddress2">Address 2</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                        </div>
-                        <!-- <div class="form-row">
-                          <div class="form-group col-md-6">
-                            <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
-                          </div>
-                          <div class="form-group col-md-4">
-                            <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
-                              <option selected>Choose...</option>
-                              <option>...</option>
-                            </select>
-                          </div>
-                          <div class="form-group col-md-2">
-                            <label for="inputZip">Zip</label>
-                            <input type="text" class="form-control" id="inputZip">
-                          </div>
-                        </div> -->
-                        <!-- <div class="form-group">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                            <label class="form-check-label" for="gridCheck">
-                              Check me out
-                            </label>
-                          </div>
-                        </div> -->
-                        <div class="text-center">
-                          <a href="/pages-logged/about-logged.html" type="submit" class="btn btn-outline-info">Submit</a>
-                      </div>
-                      </form>
-                  </div>
-              </div>
-          </div>
-        </div>
-      </div>
+    
 
     <section class="our-webcoderskull padding-lg">
         <div class="container">
@@ -201,7 +109,7 @@
                 <div class="col-md-8">
                     <div class="row justify-content-center">
                         <div class="col-md-6 col-head">
-                            <a href="/pages/about.html" class="header-nav text-decoration-none">About us</a>
+                            <a href="#" class="header-nav text-decoration-none">About us</a>
                         </div>
                         <div class="col-md-6 col-head">
                             <a href="#" class="header-nav text-decoration-none">Contact</a>
@@ -210,7 +118,7 @@
                             <a href="#" class="header-nav text-decoration-none">FAQ</a>
                         </div>
                         <div class="col-md-6 col-head">
-                            <a href="/pages/cv-templates.html" class="header-nav text-decoration-none">CV Templates</a>
+                            <a href="cv-templates-logged.html" class="header-nav text-decoration-none">CV Templates</a>
                         </div>
                     </div>
                 </div>
